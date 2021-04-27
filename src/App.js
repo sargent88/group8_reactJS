@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import Header from './children/header';
+import Form from './children/form';
+import Data from './children/data';
 import './App.css';
 
+let firstName = prompt('Please enter your first name')
+let lastName = prompt('Please enter your last name')
 function App() {
+  // const firstName = 'Steen'
+  // const lastName = 'Sargent'
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header firstName={firstName} lastName={lastName}></Header>
+      <hr></hr>
+      <Form></Form>
+      <hr></hr>
+      <Data></Data>
+    </>
   );
 }
 
