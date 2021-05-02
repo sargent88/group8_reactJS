@@ -19,7 +19,7 @@ export default function App() {
       <hr></hr>
       <Form onChildClick={dataCallback}></Form>
       <hr></hr>
-      <Data dogData={dogData}></Data>
+      <Data dogData={dogData} firstName={firstName}></Data>
     </>
   );
 }

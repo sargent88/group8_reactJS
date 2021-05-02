@@ -21,7 +21,7 @@ const dogBreeds = [
     },
     {
         breed: 'Yorkshire Terrier',
-        value: 'Yorkshire_terrier'
+        value: 'yorkshire_terrier'
     },
     {
         breed: 'Shih Tzu',

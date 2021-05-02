@@ -4,10 +4,10 @@ export default function Data (props) {
             return (
                 <>
                 <div>
-                    <p>{dogs.dogName}</p>
-                    <p>{dogs.breed}</p>
-                    <p>{dogs.gender}</p>
-                    <p>{dogs.dogLikes}</p>
+                    <p>{props.firstName}'s dog name: {dogs.dogName}</p>
+                    <p>{props.firstName}'s dogs breed: {dogs.breed}</p>
+                    <p>{props.firstName}'s dogs gender: {dogs.gender}</p>
+                    <p>{props.firstName}'s dog likes: {dogs.dogLikes}</p>
                 </div>
                 <hr></hr>
                 </>
