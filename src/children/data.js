@@ -1,6 +1,4 @@
 export default function Data (props) {
-    // console.log(props)
-    // return(<h1>Dog Data: </h1>)
     return(
         props.dogData.map(dogs => {
             return (

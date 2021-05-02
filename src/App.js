@@ -6,7 +6,7 @@ import './App.css';
 
 const firstName = prompt('Please enter your first name')
 const lastName = prompt('Please enter your last name')
-function App() {
+export default function App() {
   const [dogData, setDogData] = useState([])
 
   function dataCallback (data) {
@@ -23,5 +23,3 @@ function App() {
     </>
   );
 }
-
-export default App;
